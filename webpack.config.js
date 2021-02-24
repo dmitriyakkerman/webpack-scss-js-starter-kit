@@ -1,4 +1,5 @@
 const miniCss = require("mini-css-extract-plugin");
+const browserSyncPlugin = require('browser-sync-webpack-plugin')
 
 module.exports = {
     mode: 'production',
@@ -6,7 +7,7 @@ module.exports = {
         "main": ["./src/js/main.js", "./src/scss/main.scss"]
     },
     output: {
-        path: __dirname + "/dist/js/",
+        path: __dirname + "/assets/js/",
         filename: "[name].min.js"
     },
     module: {
@@ -19,9 +20,19 @@ module.exports = {
             ]
         }]
     },
+    watch: true,
     plugins: [
         new miniCss({
             filename: "../css/[name].min.css"
         }),
+        new browserSyncPlugin({
+            host: 'localhost',
+            port: 3000,
+            files: ['./assets/*.html'],
+            server: {
+                baseDir: ['assets']
+            },
+            // proxy: 'http://localhost:8000/', your custom serving endpoint
+        })
     ]
 };

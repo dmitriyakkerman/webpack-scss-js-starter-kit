@@ -1,8 +1,8 @@
-# webpack-scss-js-starter-kit  
+# webpack-scss-js-starter-kit
 
 Simple foundation for your frontend project.
 
-**Features:**
+### **Features:**
 
 1. Loaders:
 
@@ -15,27 +15,25 @@ Simple foundation for your frontend project.
     [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin)    
     [browser-sync-webpack-plugin](https://github.com/Va1/browser-sync-webpack-plugin)    
     
- **Dependencies installation**
+### **Dependencies installation**
  
     npm install
  
- **Configuration**
+### **Configuration**
  
  1. Create "src" folder.
  2. Create "scss" and "js" folders inside "src" folder.
  3. Create "main.scss" file inside "scss" folder and entry "main.js" file inside "js" folder.
  2. Do additional configuration or any changes you need for your development process in "webpack.config.js" file.
  
- **Building**
+### **Building**
 
     npm run build 
   
- **Output**
-  
- This will create output "assets" folder with separate "css" and "js" folders and "main.min.css", "main.min.js" files inside.
+This will create output "assets" folder with separate "css" and "js" folders and "main.min.css", "main.min.js" files inside.
 
-  **Assets connection:**
+### **Assets connection:**
   
   Connect "main.min.css" via link tag and "main.min.js" via script tag to your index.html or other.   
     
-**Enjoy!**  
+#### **Enjoy!**

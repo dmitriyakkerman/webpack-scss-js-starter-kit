@@ -1,5 +1,5 @@
 const miniCss = require("mini-css-extract-plugin");
-const browserSyncPlugin = require('browser-sync-webpack-plugin')
+const browserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
     mode: 'production',
@@ -10,6 +10,7 @@ module.exports = {
         path: __dirname + "/assets/js/",
         filename: "[name].min.js"
     },
+    watch: true,
     module: {
         rules: [{
             test:/\.(s*)css$/,
@@ -20,7 +21,6 @@ module.exports = {
             ]
         }]
     },
-    watch: true,
     plugins: [
         new miniCss({
             filename: "../css/[name].min.css"

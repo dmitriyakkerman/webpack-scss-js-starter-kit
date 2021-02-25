@@ -11,9 +11,16 @@
     "url": "git+https://github.com/dmitriyakkerman/webpack-scss-js-starter-kit.git"
   },
   "keywords": [
+    "webpack-starter-kit",
     "webpack",
-    "js",
-    "sccs"
+    "webpack-plugin",
+    "browsersync",
+    "browser-sync",
+    "livereload",
+    "serve",
+    "css-loader",
+    "sass-loader",
+    "mini-css-extract-plugin"
   ],
   "author": "",
   "license": "ISC",

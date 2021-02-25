@@ -28,9 +28,9 @@ module.exports = {
         new browserSyncPlugin({
             host: 'localhost',
             port: 3000,
-            files: ['./assets/*.html'],
+            files: ['*.html'],
             server: {
-                baseDir: ['assets']
+                baseDir: [__dirname]
             },
             // proxy: 'http://localhost:8000/', your custom serving endpoint
         })

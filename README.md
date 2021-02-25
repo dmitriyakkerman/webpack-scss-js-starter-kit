@@ -30,7 +30,12 @@ Simple foundation for your frontend project.
 
     npm run build 
   
+ **Output**
+  
  This will create output "assets" folder with separate "css" and "js" folders and "main.min.css", "main.min.js" files inside.
- Connect "main.min.css" and "main.min.js" to your index.html or other. 
+
+  **Assets connection:**
+  
+  Connect "main.min.css" via link tag and "main.min.js" via script tag to your index.html or other.   
     
 **Enjoy!**  

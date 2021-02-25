@@ -21,7 +21,9 @@ Simple foundation for your frontend project.
  
  **Configuration**
  
- 1. Create "src" folder with entry "main.scss" file inside "scss" folder and entry "main.js" file inside "js" folder.
+ 1. Create "src" folder.
+ 2. Create "scss" and "js" folders inside "src" folder.
+ 3. Create "main.scss" file inside "scss" folder and entry "main.js" file inside "js" folder.
  2. Do additional configuration or any changes you need for your development process in "webpack.config.js" file.
  
  **Building**

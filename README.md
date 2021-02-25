@@ -2,7 +2,7 @@
 
 Simple foundation for your frontend project.
 
-**Starter kit contains:**
+**Features:**
 
     css-loader
     node-sass
@@ -22,5 +22,8 @@ Simple foundation for your frontend project.
  **Building**
 
     npm run build 
+  
+ This will create output "assets" folder with separate "css" and "js" folders and "main.min.css", "main.min.js" files inside.
+ Connect "main.min.css" and "main.min.js" to your index.html or other. 
     
 **Enjoy!**  

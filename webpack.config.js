@@ -28,11 +28,11 @@ module.exports = {
         new browserSyncPlugin({
             host: 'localhost',
             port: 3000,
-            files: ['*.html'],
+            files: ['*.html'], // => files to watch
             server: {
                 baseDir: [__dirname]
             },
-            // proxy: 'http://localhost:8000/', your custom serving endpoint
+            // proxy: 'http://localhost:8000/', => your custom serving endpoint
         })
     ]
 };

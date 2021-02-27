@@ -15,7 +15,6 @@
     "webpack",
     "webpack-plugin",
     "browsersync",
-    "browser-sync",
     "livereload",
     "serve",
     "css-loader",

@@ -32,7 +32,7 @@ module.exports = {
             server: {
                 baseDir: [__dirname]
             },
-            // proxy: 'http://localhost:8000/', => your custom serving endpoint
+            // proxy: 'http://localhost:8000/', => your local url
         })
     ]
 };

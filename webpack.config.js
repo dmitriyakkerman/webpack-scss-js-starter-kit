@@ -7,7 +7,7 @@ module.exports = {
         "main": ["./src/js/main.js", "./src/scss/main.scss"]
     },
     output: {
-        path: __dirname + "/assets/js/",
+        path: __dirname + "/dist/js/",
         filename: "[name].min.js"
     },
     watch: true,

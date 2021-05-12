@@ -15,9 +15,26 @@ module.exports = {
         rules: [{
             test:/\.(s*)css$/,
             use: [
-                miniCss.loader,
+                {
+                    loader: miniCss.loader,
+                    options: {
+                        publicPath: ''
+                    }
+                },
                 'css-loader',
                 'sass-loader',
+            ]
+        },
+        {
+            test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+            use: [
+                {
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[ext]',
+                        outputPath: '../fonts/'
+                    }
+                }
             ]
         }]
     },

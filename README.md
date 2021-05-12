@@ -8,7 +8,7 @@ Simple foundation for your frontend project.
 
     [css-loader](https://github.com/webpack-contrib/css-loader)    
     [node-sass](https://github.com/sass/node-sass)    
-    [sass-loader](https://github.com/webpack-contrib/sass-loader)
+    [sass-loader](https://github.com/webpack-contrib/sass-loader)   
     [file-loader](https://github.com/webpack-contrib/file-loader)
     
 2. Plugins:

@@ -18,7 +18,7 @@ Simple foundation for your frontend project.
     
 ### **Dependencies installation**
  
-    npm install
+    npm i webpack-scss-js-starter-kit
  
 ### **Configuration**
  

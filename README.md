@@ -1,3 +1,5 @@
+[![install size](https://packagephobia.com/badge?p=webpack-scss-js-starter-kit)](https://packagephobia.com/result?p=webpack-scss-js-starter-kit)
+
 # webpack-scss-js-starter-kit
 
 Simple foundation for your frontend project. 

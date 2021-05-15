@@ -18,9 +18,11 @@ Simple foundation for your frontend project.
     [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin)    
     [browser-sync-webpack-plugin](https://github.com/Va1/browser-sync-webpack-plugin)    
     
-### **Dependencies installation**
+### **Installation**
  
-    npm i webpack-scss-js-starter-kit
+    1. Go to your project directory
+    2. Clone starter-kit https://github.com/dmitriyakkerman/webpack-scss-js-starter-kit.git
+    3. Run npm install
  
 ### **Configuration**
  

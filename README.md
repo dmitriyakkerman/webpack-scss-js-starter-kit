@@ -30,7 +30,8 @@ Simple foundation for your frontend project.
  2. Create "scss" and "js" folders inside "src" folder.
  3. Create "main.scss" file inside "scss" folder and "main.js" file inside "js" folder.
  4. Import your fonts inside "scss".
- 5. Do additional configuration or any changes you need for your development process in "webpack.config.js" file.
+ 5. Connect your fonts to entry main.scss file (if needed)
+ 6. Do additional configuration or any changes you need for your development process in "webpack.config.js" file.
  
 ### **Building**
 

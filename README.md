@@ -21,7 +21,7 @@ Simple foundation for your frontend project.
 ### **Installation**
  
     1. Go to your project directory
-    2. Clone starter-kit https://github.com/dmitriyakkerman/webpack-scss-js-starter-kit.git
+    2. git clone https://github.com/dmitriyakkerman/webpack-scss-js-starter-kit.git .
     3. Run npm install
  
 ### **Configuration**

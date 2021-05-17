@@ -43,3 +43,4 @@ This will create output "dist" folder with separate "css" and "js" folders with 
   Connect "main.min.css" and "main.min.js" to your project.   
     
 #### **Enjoy!**
+Your project is now running on http://localhost:3000 by default (you can change your host in "proxy" property in webpack.config.js)

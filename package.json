@@ -1,6 +1,6 @@
 {
   "name": "webpack-scss-js-starter-kit",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Simple foundation for your frontend project.",
   "main": "index.js",
   "scripts": {

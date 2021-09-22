@@ -1,4 +1,4 @@
-Simple foundation for your frontend project. 
+Foundation for your frontend project. 
 
 ### **Features:**
 
